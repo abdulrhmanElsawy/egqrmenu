@@ -29,7 +29,7 @@ function DownNav(){
                     <div className='nav-content'>
                         <ul>
                             <li>
-                                <RouterLink  className={isActive('/')} to="/">
+                                <RouterLink  className={isActive('/')} to="/egqrmenu">
                                     <i class="las la-home"></i>
                                     الرئيسية
                                 </RouterLink>
@@ -50,7 +50,7 @@ function DownNav(){
                             </li>
 
                             <li>
-                                <RouterLink  className={isActive('/bookmark')} to="/bookmark">
+                                <RouterLink  className={isActive('/bookmark')} to="/bookmark/egqrmenu">
                                     <i class="las la-bookmark"></i>
                                     طلبك
                                 </RouterLink>

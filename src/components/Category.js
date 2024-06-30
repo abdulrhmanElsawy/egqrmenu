@@ -50,17 +50,17 @@ function Category() {
                 <div className='container'>
                     <div className='row search-container-ele'>
                         <div className='section-header'>
-                            <RouterLink to="/category"></RouterLink>
+                            <RouterLink to="/category/egqrmenu"></RouterLink>
                             <h1> أطباق نباتية </h1>
                         </div>
                         {products.map(product => (
                             <div key={product.id} className='col-lg-4 col-md-12 col-sm-12 col-12'>
                                 <div className='cat-product'>
-                                    <RouterLink to="/product">
+                                    <RouterLink to="/product/egqrmenu">
                                         <img src={product.img} alt='product img' />
                                     </RouterLink>
                                     <div className='text'>
-                                        <RouterLink to="/product">
+                                        <RouterLink to="/product/egqrmenu">
                                             <h2>{product.name}</h2>
                                         </RouterLink>
                                         <div className='rate'>

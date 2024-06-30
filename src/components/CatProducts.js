@@ -61,7 +61,7 @@ function CatProducts() {
                 <div className='container'>
                     <div className='row search-container-ele'>
                         <div className='section-header'>
-                            <RouterLink to="/category">
+                            <RouterLink to="/category/egqrmenu">
                                 <i className="las la-angle-left"></i> مشاهدة الكل
                             </RouterLink>
                             <h1> أطباق نباتية </h1>
@@ -70,11 +70,11 @@ function CatProducts() {
                         {products.map(product => (
                             <div className='col-lg-4 col-md-12 col-sm-12 col-12' key={product.id}>
                                 <div className='cat-product'>
-                                    <RouterLink to="/product">
+                                    <RouterLink to="/product/egqrmenu">
                                         <img src={product.img} alt='product img' />
                                     </RouterLink>
                                     <div className='text'>
-                                        <RouterLink to="/product">
+                                        <RouterLink to="/product/egqrmenu">
                                             <h2>{product.name}</h2>
                                         </RouterLink>
                                         <div className='rate'>
@@ -96,7 +96,7 @@ function CatProducts() {
                         ))}
 
                         <div className='section-header'>
-                            <RouterLink to="/category">
+                            <RouterLink to="/category/egqrmenu">
                                 <i className="las la-angle-left"></i> مشاهدة الكل
                             </RouterLink>
                             <h1> ساندويشات </h1>
@@ -105,11 +105,11 @@ function CatProducts() {
                         {products.map(product => (
                             <div className='col-lg-4 col-md-12 col-sm-12 col-12' key={product.id}>
                                 <div className='cat-product'>
-                                    <RouterLink to="/product">
+                                    <RouterLink to="/product/egqrmenu">
                                         <img src={product.img} alt='product img' />
                                     </RouterLink>
                                     <div className='text'>
-                                        <RouterLink to="/product">
+                                        <RouterLink to="/product/egqrmenu">
                                             <h2>{product.name}</h2>
                                         </RouterLink>
                                         <div className='rate'>
@@ -131,7 +131,7 @@ function CatProducts() {
                         ))}
 
                         <div className='section-header'>
-                            <RouterLink to="/category">
+                            <RouterLink to="/category/egqrmenu">
                                 <i className="las la-angle-left"></i> مشاهدة الكل
                             </RouterLink>
                             <h1> مقبلات بحرية </h1>
@@ -140,11 +140,11 @@ function CatProducts() {
                         {products.map(product => (
                             <div className='col-lg-4 col-md-12 col-sm-12 col-12' key={product.id}>
                                 <div className='cat-product'>
-                                    <RouterLink to="/product">
+                                    <RouterLink to="/product/egqrmenu">
                                         <img src={product.img} alt='product img' />
                                     </RouterLink>
                                     <div className='text'>
-                                        <RouterLink to="/product">
+                                        <RouterLink to="/product/egqrmenu">
                                             <h2>{product.name}</h2>
                                         </RouterLink>
                                         <div className='rate'>
@@ -166,7 +166,7 @@ function CatProducts() {
                         ))}
 
                         <div className='section-header'>
-                            <RouterLink to="/category">
+                            <RouterLink to="/category/egqrmenu">
                                 <i className="las la-angle-left"></i> مشاهدة الكل
                             </RouterLink>
                             <h1> بيتزا </h1>
@@ -175,11 +175,11 @@ function CatProducts() {
                         {products.map(product => (
                             <div className='col-lg-4 col-md-12 col-sm-12 col-12' key={product.id}>
                                 <div className='cat-product'>
-                                    <RouterLink to="/product">
+                                    <RouterLink to="/product/egqrmenu">
                                         <img src={product.img} alt='product img' />
                                     </RouterLink>
                                     <div className='text'>
-                                        <RouterLink to="/product">
+                                        <RouterLink to="/product/egqrmenu">
                                             <h2>{product.name}</h2>
                                         </RouterLink>
                                         <div className='rate'>
@@ -202,7 +202,7 @@ function CatProducts() {
 
 
 <div className='section-header'>
-                            <RouterLink to="/category">
+                            <RouterLink to="/category/egqrmenu">
                                 <i className="las la-angle-left"></i> مشاهدة الكل
                             </RouterLink>
                             <h1> أسماك </h1>
