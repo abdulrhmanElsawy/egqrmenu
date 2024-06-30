@@ -50,7 +50,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg1} alt='category image'/>
                                         <div className='text'>
                                             <h2> أطباق نباتية </h2>
@@ -63,7 +63,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg2} alt='category image'/>
                                         <div className='text'>
                                         <h2> ساندويشات </h2>
@@ -75,7 +75,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg3} alt='category image'/>
                                         <div className='text'>
                                         <h2> مقبلات بحرية </h2>
@@ -88,7 +88,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg4} alt='category image'/>
                                         <div className='text'>
                                         <h2> بيتزا </h2>
@@ -102,7 +102,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg5} alt='category image'/>
                                         <div className='text'>
                                         <h2> خضروات مشوية </h2>
@@ -115,7 +115,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg6} alt='category image'/>
                                         <div className='text'>
                                         <h2> أسماك </h2>
@@ -128,7 +128,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg7} alt='category image'/>
                                         <div className='text'>
                                         <h2> لحوم </h2>
@@ -141,7 +141,7 @@ function MainCategories(){
 
                             <SwiperSlide>
                                 <div className='category'>
-                                    <RouterLink to="/category/egqrmenu">
+                                    <RouterLink to="/egqrmenu/category">
                                         <img src={CatImg8} alt='category image'/>
                                         <div className='text'>
                                         <h2> المشروبات المثلجة </h2>
