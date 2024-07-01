@@ -40,14 +40,14 @@ function PopProductsSlider() {
     };
 
     const products = [
-        { img: ProductImg1, name: 'ستيك لحم بقر مشوي', price: 125, link: 'egqrmenu/product', rating: 4.8, reviews: 125 },
-        { img: ProductImg2, name: 'منتج 2', price: 82, link: 'egqrmenu/product', rating: 4.4, reviews: 41 },
-        { img: ProductImg3, name: 'كالاماري مشوية', price: 255, link: 'egqrmenu/product', rating: 4.1, reviews: 90 },
-        { img: ProductImg4, name: 'بيتزا ببروشيتو وفطر', price: 110, link: 'egqrmenu/product', rating: 4.6, reviews: 47 },
-        { img: ProductImg5, name: 'برجر لحم مع صلصة الباربيكيو', price: 125, link: 'egqrmenu/product', rating: 4.8, reviews: 125 },
-        { img: ProductImg6, name: 'رولات خضراوات مشوية', price: 125, link: 'egqrmenu/product', rating: 4.8, reviews: 125 },
-        { img: ProductImg7, name: 'باذنجان محشي', price: 125, link: 'egqrmenu/product', rating: 4.8, reviews: 125 },
-        { img: ProductImg8, name: 'كبسة لحم', price: 125, link: 'egqrmenu/product', rating: 4.8, reviews: 125 },
+        { img: ProductImg1, name: 'ستيك لحم بقر مشوي', price: 125, link: 'product', rating: 4.8, reviews: 125 },
+        { img: ProductImg2, name: 'منتج 2', price: 82, link: 'product', rating: 4.4, reviews: 41 },
+        { img: ProductImg3, name: 'كالاماري مشوية', price: 255, link: 'product', rating: 4.1, reviews: 90 },
+        { img: ProductImg4, name: 'بيتزا ببروشيتو وفطر', price: 110, link: 'product', rating: 4.6, reviews: 47 },
+        { img: ProductImg5, name: 'برجر لحم مع صلصة الباربيكيو', price: 125, link: 'product', rating: 4.8, reviews: 125 },
+        { img: ProductImg6, name: 'رولات خضراوات مشوية', price: 125, link: 'product', rating: 4.8, reviews: 125 },
+        { img: ProductImg7, name: 'باذنجان محشي', price: 125, link: 'product', rating: 4.8, reviews: 125 },
+        { img: ProductImg8, name: 'كبسة لحم', price: 125, link: 'product', rating: 4.8, reviews: 125 },
     ];
 
     return (
